@@ -7,7 +7,7 @@ The code will not be up to the standards of WebPd - as I am using a lot of globa
 
 ##### Features added:
 
-**dac~** (web audio input) - Only works on Chrome desktop - partially complete. Uses 1 channel currently and no inlets on the object. This was kind of a hack. The input stream connects to a scriptNode that copies samples to a circular buffer. Then that scriptNode is connected to a gainNode with gain value of zero, which is connected to context.destination. This was the only way I could get WebAudio to pull the stream through the scriptNode. 
+**adc~** (web audio input) - Only works on Chrome desktop - partially complete. Uses 1 channel currently and no inlets on the object. This was kind of a hack. The input stream connects to a scriptNode that copies samples to a circular buffer. Then that scriptNode is connected to a gainNode with gain value of zero, which is connected to context.destination. This was the only way I could get WebAudio to pull the stream through the scriptNode. 
 
 Latency is about 3000 samples in addition to existing latency. If we find a more efficent way to buffer the samples than the hack described above...
 
