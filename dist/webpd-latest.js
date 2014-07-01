@@ -1,6 +1,6 @@
 /*
  * WebPd - v0.2.3
- * Copyright (c) 2013 Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2014 Sébastien Piquemal <sebpiq@gmail.com>
  *
  * BSD Simplified License.
  * For information on usage and redistribution, and for a DISCLAIMER OF ALL
@@ -2200,13 +2200,22 @@ proto.getSyncWriteOffset = function () {
 } (this.Sink);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -2539,13 +2548,22 @@ proto.getSyncWriteOffset = function () {
 }).call(this);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -2643,13 +2661,22 @@ proto.getSyncWriteOffset = function () {
 
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -2856,13 +2883,22 @@ proto.getSyncWriteOffset = function () {
 })(this.Pd);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -3016,13 +3052,22 @@ proto.getSyncWriteOffset = function () {
 })(this.Pd);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
@@ -3355,15 +3400,179 @@ proto.getSyncWriteOffset = function () {
 })(this.Pd);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
+
+// mods by tz - these will eventually get put into Pd.objects - but they need to be here for testing
+
+var hoo = 47;  // make sure package is getting built
+
+// this is where we splice into web pd
+
+var CIRCMAX = 100000;
+var LATENCY = 3072;
+var circ_index_write = 0;
+var circ_index_read = CIRCMAX - LATENCY;
+
+var context;	// get Pd context
+var mediaStreamSource;
+var node;
+var globalBuffer = [];
+var gain;
+
+var circ_init = 0;  // set to 1 after first initialize
+
+
+var circ_buf = [];
+var zzz;
+
+navigator.getUserMedia = ( navigator.getUserMedia ||
+                       navigator.webkitGetUserMedia ||
+                       navigator.mozGetUserMedia ||
+                       navigator.msGetUserMedia);
+
+
+
+function clear_circ_buffer() {
+	
+	var i;
+	for ( i = 0 ; i <= CIRCMAX ; i++) {
+		circ_buf[i] = 0;
+	}
+	
+}
+function write_ring_buf( data ) {
+	
+	
+	if(circ_index_write > CIRCMAX) {
+        circ_index_write = 0;
+    }
+    circ_buf[circ_index_write++] = data;
+    
+ 
+}
+
+
+
+
+function adcError() {
+    alert('Stream generation failed.');
+    // finishJSTest();
+}
+
+function getUserMedia(dictionary, callback) {
+	
+	if (typeof navigator.getUserMedia != 'undefined')
+		{
+	
+	
+   	 try {
+	        // navigator.webkitGetUserMedia(dictionary, callback, adcError);
+			navigator.getUserMedia(dictionary, callback, adcError);
+	    } catch (e) {
+	        alert('getUserMedia threw exception :' + e);
+	        // finishJSTest();
+	    }
+	}
+	else {
+		alert("Microphone not available on this device.")
+	} 
+	
+}
+
+function gotStream(stream) {
+	
+    s = stream;
+    initAdcAudio(stream);
+	console.log("got stream");
+	setTimeout(resetCircularBuffer, 500);
+
+}
+
+function resetCircularBuffer () {
+	circ_index_write = 0;
+	circ_index_read = CIRCMAX - LATENCY;
+}
+
+function adcInit() {
+	clear_circ_buffer();
+    getUserMedia({audio:true}, gotStream);
+}
+
+function initAdcAudio(stream) {
+    // context = a;
+	context = Sink.sinks.webaudio.getContext();
+    
+    // Create an AudioNode from the stream.
+    mediaStreamSource = context.createMediaStreamSource(stream);    
+	gain = context.createGainNode();
+
+// tz - ok here: I need to figure out how to connect the microphone to a javascript node, get the stream
+// into a buffer that can be read by a pd dsp object function - using the 'tick' format
+//
+//  so we will need to know the sample rate that pd is set to at the very least...
+//
+
+	node = context.createJavaScriptNode(1024, 1, 1);
+
+	node.onaudioprocess = function(e) {
+
+  		// The output buffer contains the samples that will be modified and played
+	  	var outputBuffer = e.outputBuffer;
+	 	var inputBuffer = e.inputBuffer;
+
+	  	// Loop through the output channels (in this case there is only one)
+	  	for (var channel = 0; channel < outputBuffer.numberOfChannels; channel++) {
+	    	var outData = outputBuffer.getChannelData(channel);
+			var inData = inputBuffer.getChannelData(channel);
+
+	   	 	// Loop through the samples
+		    for (var sample = 0; sample < outputBuffer.length; sample++) {
+
+      
+		      // Set the data in the output buffer for each sample
+		      outData[sample] = inData[sample];
+			// globalBuffer[sample] = inData[sample];
+			if(circ_index_write > CIRCMAX) {
+		        circ_index_write = 0;
+		    }
+		    circ_buf[circ_index_write++] = inData[sample];	
+			
+			// write_ring_buf(inData[sample]);
+			  
+		    }
+	
+	  	}
+	}
+
+
+
+
+
+	mediaStreamSource.connect(node);
+    node.connect(gain);
+	gain.gain.value = 0;
+	gain.connect(context.destination);
+
+}
+
+
 
 (function(Pd){
 // TODO: before audio has been started we're not sure about sample rate, so we need reset some stuff in `load` (which is not great). See : osc~, lop~, ...
@@ -3995,7 +4204,8 @@ proto.getSyncWriteOffset = function () {
             this.setName(name);
         },
 
-        message: function(inletId) {
+     
+ 		message: function(inletId) {
             if (inletId === 0) {
                 var patch = this.patch,
                     args = Array.prototype.slice.call(arguments, 1);
@@ -4215,7 +4425,49 @@ proto.getSyncWriteOffset = function () {
         }
     });
 
-    // digital to analogue converter (sound output)
+// tz test
+
+// Microphone access 
+Pd.objects['adc~'] = Pd.Object.extend({
+
+    outletTypes: ['outlet~'],
+
+    load: function() {
+		
+        adcInit();
+		// circ_index_write = 0;
+		// circ_index_read = CIRCMAX - 3072;
+     },
+
+    dspTick: function() {
+        var outBuff = this.outlets[0].getBuffer(),
+            J = this.J, i, length;
+		
+	
+		
+
+        for (i = 0, length = outBuff.length; i < length; i++) {
+	
+			if(circ_index_read > CIRCMAX) {
+		        circ_index_read = 0;
+		    }
+		    outBuff[i] = circ_buf[circ_index_read++];
+	
+	
+           // outBuff[i] = 2 * Math.random() - 1;
+        }
+    }
+});
+
+ 
+
+
+
+
+
+
+
+   // digital to analogue converter (sound output)
     Pd.objects['dac~'] = Pd.Object.extend({
 
       endPoint: true,
@@ -5003,13 +5255,22 @@ proto.getSyncWriteOffset = function () {
 })(this.Pd);
 
 /*
- * Copyright (c) 2012 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
+ * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
  *
- * BSD Simplified License.
- * For information on usage and redistribution, and for a DISCLAIMER OF ALL
- * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *  This file is part of WebPd. See https://github.com/sebpiq/WebPd for documentation
  *
- * See https://github.com/sebpiq/WebPd for documentation
+ *  WebPd is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  WebPd is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with WebPd.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 
