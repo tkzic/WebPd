@@ -583,6 +583,7 @@ function Sink (readFn, channelCount, bufferSize, sampleRate) {
 	for (i=0; i<sinks.length; i++) {
 		if (sinks[i].enabled) {
 			try {
+				// console.log("hello");
 				return new sinks[i](readFn, channelCount, bufferSize, sampleRate);
 			} catch(e1){}
 		}
@@ -1351,7 +1352,8 @@ sinks('webaudio', function (readFn, channelCount, bufferSize, sampleRate) {
 		soundData	= null,
 		zeroBuffer	= null;
 	self.start.apply(self, arguments);
-	node = context.createJavaScriptNode(self.bufferSize, self.channelCount, self.channelCount);
+	// node = context.createJavaScriptNode(self.bufferSize, self.channelCount, self.channelCount);
+	node = context.createScriptProcessor(self.bufferSize, self.channelCount, self.channelCount);
 
 	function bufferFill(e) {
 		var	outputBuffer	= e.outputBuffer,
@@ -2198,6 +2200,9 @@ proto.getSyncWriteOffset = function () {
 };
 
 } (this.Sink);
+
+
+
 
 /*
  * Copyright (c) 2011-2013 Chris McCormick, Sébastien Piquemal <sebpiq@gmail.com>
@@ -3251,7 +3256,7 @@ proto.getSyncWriteOffset = function () {
             var patch = this;
 
             if (!this.isPlaying()) {
-                console.debug('Starting audio.');
+                console.debug('Starting audio...');
                 // fetch the actual samplerate from the audio driver
                 this.sampleRate = this.audio.getSampleRate();
                 // TODO: should load called with post-order traversal,
@@ -3521,7 +3526,7 @@ function initAdcAudio(stream) {
     
     // Create an AudioNode from the stream.
     mediaStreamSource = context.createMediaStreamSource(stream);    
-	gain = context.createGainNode();
+	gain = context.createGain();
 
 // tz - ok here: I need to figure out how to connect the microphone to a javascript node, get the stream
 // into a buffer that can be read by a pd dsp object function - using the 'tick' format
@@ -3529,7 +3534,7 @@ function initAdcAudio(stream) {
 //  so we will need to know the sample rate that pd is set to at the very least...
 //
 
-	node = context.createJavaScriptNode(1024, 1, 1);
+	node = context.createScriptProcessor(1024, 1, 1);
 
 	node.onaudioprocess = function(e) {
 
